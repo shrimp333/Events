@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    background-color: #ffffff;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+button{
+    background-color: #75298f;
+    border: none;
+    padding: .75rem;
+    color: white;
+    text-decoration: none;
+    border-radius: .5rem;
+    width: 70%;
+    font-size: 1rem;
+    margin:auto;
+}
+.say-hello{
+    margin-bottom: 1.5rem;
+}
+button:hover{
+    cursor: pointer;
+}
+.box{
+    background-color: #363a57;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    padding: 1rem 0rem;
+    border-radius: .5rem;
+    box-shadow: 0px 5px 15px -10px rgb(0, 0, 0);
+}
+.hidden-header{
+    visibility: hidden;
+    margin:0;
+}
+.collection{
+    margin:auto;
+    margin-top: 1rem;
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-content: center;
+    align-content: center;
+    gap: 1rem;
+    
+}

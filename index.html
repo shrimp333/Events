@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <!-- <meta http-equiv="refresh" content="3" > -->
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events task</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./onLoad.js"></script>
+</head>
+<body>
+    <div class="collection">
+        <div class="box">
+            <button type="button" class="say-hello" onclick="helloWorld()">Click me to say hello</button>
+            <h1 id="hiddenHeader" class="hidden-header">Hello World</h1>
+        </div>
+        <div class="box" id="ColorChanger">
+            <button type="button" onclick="colorChanger()" id="color-button">Click me to change my color</button>
+        </div>
+        <div class="box">
+            <button type="button" id="enabler" onclick="enableColorChanger()">Click me to enable the color changer button</button>
+        </div>
+    </div>
+
+    <script src="./Scripts.js"></script>
+</body>
+</html>
